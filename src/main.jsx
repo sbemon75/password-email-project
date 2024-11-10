@@ -8,6 +8,7 @@ import Home from './assets/Components/Home/Home.jsx';
 import Main from './assets/Layout/Main.jsx';
 import Login from './assets/Components/Login/Login.jsx';
 import Register from './assets/Components/Register/Register.jsx';
+import SignUp from './assets/Components/SignUp/SignUp.jsx';
 
 
 
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
       {
         path:'register',
         element:<Register></Register>
+      },
+      {
+        path:'signUp',
+        element:<SignUp></SignUp>
       }
     ],
   },
